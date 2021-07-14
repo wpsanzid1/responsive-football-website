@@ -1,0 +1,223 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/*-------------------------
+  Common styles
+--------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    color:#fff;
+    font-size:64px;
+    font-weight:900;
+    line-height:1.1;
+}
+h3{
+    font-weight:900;
+    font-size:28px;
+    color:#18191F;
+}
+p{
+    font-size:16px;
+    font-weight:400;
+    color:#6C6C6C;
+}
+.btn{
+    background-color: #E02C6D;
+    padding:10px 25px;
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    text-decoration:none; 
+
+}
+ 
+.container{
+    width:1050px;
+    margin: 0 auto;
+    
+}
+
+
+/*---------------------------------------
+    header area
+----------------------------------------*/
+.header-area{
+  padding:40px 0;
+  background-color: #2D25A0;
+}
+.menu{
+  margin-left: -47px;
+}
+.nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-menu{
+  display: none;
+}
+.menu ul{
+  padding: 0;
+  margin: 0;
+}
+.menu ul li{
+  display:inline-block;
+  margin-right: 15px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color:#fff;
+  display:block;
+  font-weight:500;
+  font-size:16px;
+
+}
+.nav-btn{
+  margin-right: -80px;
+}
+.nav-btn i {
+  margin-right: 10px;
+}
+/*---------------------------------------
+    hero area
+----------------------------------------*/
+ .hero-area{
+   background-color: #2D25A0;
+   padding:60px 0;
+ 
+  
+ }
+ .hero-area:hover .hero-img img{
+   transform: scale(1.2);
+ }
+ .hero-wrapper{
+   display:flex; 
+   justify-content: space-between;
+   align-items: center;
+ }
+ .hero-text{
+  width: 116%;
+  margin-left: -43px;
+ }
+ .hero-text h2 {
+  text-transform: capitalize; 
+  line-height: 1.2;
+
+  margin-bottom: 54px;
+}
+ .hero-img { 
+   text-align: right;
+   margin-right: -86px; 
+ }
+ .hero-img img{
+   width:71%; 
+   transition: transform 1s;
+ }
+
+ /*---------------------------------------------
+ blog section
+ ---------------------------------------------*/
+ .blog-area{
+   padding:80px 0;
+ }
+ .blog-wrapper{
+   display:grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-column-gap:30px;
+   grid-row-gap: 30px;
+ }
+ .single-blog{
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding:15px;
+ }
+ .single-blog img{
+   width:100%;
+ }
+
+
+  /*---------------------------------------------
+  achievement area
+ ---------------------------------------------*/
+ .achieve-area{
+  background-color: #F8F9FA;
+  padding: 80px 0;
+}
+ .achievement-wrapper{
+   display:grid;
+   grid-template-columns: repeat(4, 1fr);
+ }
+ .achievement {
+  text-align: center;
+}
+ .achievement h4 {
+  font-size: 60px;
+  color: #010101;
+  font-weight: 500;
+}
+ }
+ .achievement p {
+  text-transform: uppercase;
+}
+
+  /*---------------------------------------------
+footer area
+ ---------------------------------------------*/
+ .footer-area{
+   padding:80px 0;
+ }
+ .footer-logo{
+   text-align: center;
+ }
+ .footer-logo img{
+   max-width:400px;
+   text-align:center;
+ }
+ .footer-social{
+   text-align:center;
+   margin-bottom: 20px;
+ }
+ .footer-social i{
+   width:32px;
+   height:32px;
+   line-height:32px;
+   color:#969BAB;
+   background-color:#E7E7E8; 
+   border-radius: 50%;
+   margin: 0 5px;
+ }
+ p.copywrite-text{
+   text-align:center;
+   
+ }
+
+  /*---------------------------------------------
+    subscribe area
+ ---------------------------------------------*/
+ .subscribe-area{
+   padding:70px 0;
+   background-color: rgba(27, 27, 70, 0.246);
+ }
+ .subscribe{
+   display:flex;
+   justify-content: center; 
+ }
+ .subscribe h3{
+   margin-right: 20px;
+ }
+ .subscribe input[type="text"]{
+   padding:10px;
+   border:1px solid #ddd;
+   border-radius:5px;
+ } 
+ .subscribe input[type="submit"]{
+   padding: 10px 20px; 
+   border:none;
+
+ }
