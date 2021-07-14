@@ -35,7 +35,25 @@ p{
     font-size:16px;
     font-weight:500;
     text-decoration:none; 
+    position: relative;
 
+}
+
+.btn::after{
+  content: '';
+  height: 5px;
+  width: 0;
+  background: yellow;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+.btn:hover::after{
+
+  width: 100%;
+  
+  
 }
  
 .container{
